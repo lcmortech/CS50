@@ -32,7 +32,11 @@ y = float(input("What is y? "))
 
 z = round(x + y)
 
-# if you want to include commas
+# total arguments for ROUND from docs (1:16:40):
+# round(number[, ndigits])
+# brackets means the amount is optional
+
+# if you want to include commas using fstrings:
 print(f"{z:,}")
 
 # you can also round to number of digits
@@ -43,3 +47,12 @@ round(x / y, 2)
 print(f"{z:.2f}")
 >>> 0.67
 
+# new version using RETURN
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
+
+def square(n):
+    return n * n
+    # return n ** 2
+    # return pow(n, 2)
