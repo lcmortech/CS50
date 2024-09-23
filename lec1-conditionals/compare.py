@@ -10,3 +10,8 @@ elif x == y: # can be replaced with else
     print("x is equal to y")
     
 # else is not necessary here because all conditions have already been satisfied
+
+if x < y or x > y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")
