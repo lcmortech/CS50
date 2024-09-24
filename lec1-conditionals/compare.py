@@ -16,3 +16,6 @@ if x < y or x > y:
 else:
     print("x is equal to y")
 '''
+# works exactly the same but clearer
+if x != y:
+    print("x is not equal to ys")
