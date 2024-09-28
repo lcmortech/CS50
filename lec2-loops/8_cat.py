@@ -45,11 +45,41 @@ if n < 0:
 '''
 
 # introducing continue and break statements
+'''
 while True:
     n = int(input("What's n? "))
     if n < 0:
         continue
     else:
         break
+'''
 
-# more useable
+# more useable and common 
+# break has the effect of breaking out the most recently begun while loop
+
+'''
+while True:
+    n = int(input("What's n? "))
+    if n > 0:
+        break
+
+for _ in range(n):
+    print("meow")
+'''
+
+def main():
+    num = get_number()
+    meow(num)
+
+# getter function
+def get_number:
+    while True:
+        n = int(input("What's n? "))
+        if n > 0:
+            # break
+            return n
+    #return n
+
+def meow(n):
+    for _ in range(n):
+        print("meow")
