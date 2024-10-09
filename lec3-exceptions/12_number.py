@@ -13,6 +13,9 @@ else:
 # it's good to be specific with the error instead of leaving "except" as is
 '''
 
+def get_int():
+    pass
+
 while True:
     try:
         x = int(input("What's x? "))
@@ -22,3 +25,5 @@ while True:
     #else:
         #break
 print(f"x is {x}")
+
+
