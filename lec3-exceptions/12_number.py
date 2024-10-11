@@ -29,11 +29,18 @@ def get_int():
 print(f"x is {x}")
 
 # abstracted away getting an integer
-def get_int():
+# It's up to you to add a prompt for the user to see when asked for input
+def main():
+    x = get_int("What's x? ")
+    print(f"x is {x}")
+
+def get_int(prompt):
 	while True:
 		try:
-			return int(input("What's x? "))
+			return int(input(prompt))
 		except ValueError:
 			pass
 			#print("x is not an integer")
+
+# the raise keyword is briefly mentioned
 
