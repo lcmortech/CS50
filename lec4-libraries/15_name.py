@@ -16,4 +16,12 @@ import sys
 if len(sys.argv) < 2:
 	sys.exit("Too few arguments")
 for arg in sys.argv[1:]:
+	#[1:-1]:
 	print("Hello,my nameis", arg)
+	
+	# using a negative number starts the counting in the other direction
+	
+	# PACKAGES
+	# PyPI pypi.org - python package index (similar to npm in js)
+	# pypi.org/project/cowsay
+	# pip - python
