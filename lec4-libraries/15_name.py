@@ -21,7 +21,4 @@ for arg in sys.argv[1:]:
 	
 	# using a negative number starts the counting in the other direction
 	
-	# PACKAGES
-	# PyPI pypi.org - python package index (similar to npm in js)
-	# pypi.org/project/cowsay
-	# pip - python
+	
