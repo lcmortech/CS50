@@ -13,3 +13,6 @@ if len(sys.argv) == 2:
 # python say.py Name
 # python say.py 
 # python say.py Name >> produces a dinosaur
+
+# ====
+# pypi.org/project/requests - APIs
