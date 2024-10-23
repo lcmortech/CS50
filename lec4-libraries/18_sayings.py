@@ -9,3 +9,5 @@ def goodbye(name):
     print(f"Goodbye {name}")
 
 main()
+
+# can be made into a module
