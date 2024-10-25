@@ -8,7 +8,9 @@ def hello(name):
 def goodbye(name):
     print(f"Goodbye {name}")
 
-main()
+
+if __name__ == "__name__":
+	main()
 
 # can be made into a module
 # further explored for unit tests
