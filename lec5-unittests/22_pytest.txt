@@ -5,3 +5,5 @@
 # check50 is a harvard specific alternative to pytest
 # if one test fails it stops other tests from beinig run
 # because of this, it's better to break u one big test into multiple smaller tests by category
+
+When you use the assertion keyword and it fails, it will be raised in python as an AssertionError
