@@ -7,3 +7,5 @@
 # because of this, it's better to break u one big test into multiple smaller tests by category
 
 When you use the assertion keyword and it fails, it will be raised in python as an AssertionError
+
+# tests MUST have side effects or must return a value in order to work
