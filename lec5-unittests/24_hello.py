@@ -14,7 +14,10 @@ from hello import hello
 # def main():
 #	name. = input("What's your name? ")
 
-def test_hello():
-	assert hello("David") == "hello, David"
-	assert hello()
+# def test_hello():
+# 	assert hello("David") == "hello, David"
+# 	assert hello()
 	
+def test_argument():
+	assert hello("Name") == "hello, Name"
+	assert hello()
