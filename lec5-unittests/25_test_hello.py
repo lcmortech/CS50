@@ -3,5 +3,9 @@ from hello import hello
 def test_default():
     assert hello() == "hello, world"
 
+# def test_argument():
+#    assert hello("Name") == "hello, Name"
+
 def test_argument():
-    assert hello("Name") == "hello, Name"
+    for name in ["Hermione", "Harry", "Ron"]:
+        assert hello(name) == f"hello, {name}"
