@@ -9,3 +9,5 @@
 When you use the assertion keyword and it fails, it will be raised in python as an AssertionError
 
 # tests MUST have side effects or must return a value in order to work
+
+# it's best to keep tests small and simple, so that you won't need tests for your tests 
