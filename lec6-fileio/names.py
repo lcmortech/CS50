@@ -7,3 +7,4 @@ names = []
 # v2
 for _ in range(3):
 	names.append(input("What's your name?" ))
+# made shorter
