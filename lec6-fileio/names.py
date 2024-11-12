@@ -17,7 +17,7 @@
 names = input("What's your name? ")
 
 file = open("names.txt", "w") # creates file and allows you to write to it
-file.write(name)
+file.write(f"{name}\n")
 file.close()
 
 # by changing the "w" to "a", the file goes from rewritable to editable (append)
