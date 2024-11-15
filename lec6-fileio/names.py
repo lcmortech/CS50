@@ -26,7 +26,7 @@
 
 names = input("What's your name? ")
 
-with open("names.txt", "a") as file:
+with open("names.txt", "r") as file:
 file.write(f"{name}\n")
 # file.close()
 
