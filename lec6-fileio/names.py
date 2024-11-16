@@ -24,10 +24,18 @@
 
 # instead of using file.close(), we can use the with keyword instead
 
-names = input("What's your name? ")
+# names = input("What's your name? ")
 
-with open("names.txt", "r") as file:
-file.write(f"{name}\n")
+# with open("names.txt", "r") as file:
+# file.write(f"{name}\n")
 # file.close()
 
 # w, a, r (write, append/edit, read)
+with open("names.txt", "r") as file:
+	lines = file.readlines()
+	
+for line in lines:
+	print("hello,", line.strip())
+	
+
+
