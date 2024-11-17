@@ -37,12 +37,14 @@
 # for line in lines:
 # 	print("hello,", line.strip())
 
-with open("names.txt") as file:
-	for line in file:
-		names.append(line.lstrip())
+# with open("names.txt") as file:
+# 	for line in file:
+# 		names.append(line.lstrip())
 		
-for name in sorted(names):
-	print(f"hello, {name}")
+# for name in sorted(names):
+# 	print(f"hello, {name}")
 	
 
-
+with open("names.txt") as file:
+	for line in sorted(file):
+		print("hello", line.rstrip())
