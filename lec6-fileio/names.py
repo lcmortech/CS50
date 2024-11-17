@@ -1,4 +1,4 @@
-# names = []
+names = []
 
 # # for _ in range(3):
 # #     name = input("What's your name?" )
@@ -44,7 +44,9 @@
 # for name in sorted(names):
 # 	print(f"hello, {name}")
 	
-
+# sorted shorter
 with open("names.txt") as file:
 	for line in sorted(file):
 		print("hello", line.rstrip())
+		
+# sorted(iterable, /, *, key=None, reverse=False)
