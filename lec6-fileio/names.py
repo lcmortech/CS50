@@ -50,4 +50,9 @@ with open("names.txt") as file:
 		print("hello", line.rstrip())
 		
 # sorted(iterable, /, *, key=None, reverse=False)
+# reverses sort order of names		
+for name in sorted(names, reverse=True):
+	print(f"hello, {name"})
+		
+
 # use conditionals to find a name in open file using "r"
