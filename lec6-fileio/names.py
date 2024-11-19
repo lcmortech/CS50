@@ -45,14 +45,17 @@ names = []
 # 	print(f"hello, {name}")
 	
 # sorted shorter
-with open("names.txt") as file:
-	for line in sorted(file):
-		print("hello", line.rstrip())
+# with open("names.txt") as file:
+# 	for line in sorted(file):
+# 		print("hello", line.rstrip())
 		
-# sorted(iterable, /, *, key=None, reverse=False)
-# reverses sort order of names		
-for name in sorted(names, reverse=True):
-	print(f"hello, {name"})
+# # sorted(iterable, /, *, key=None, reverse=False)
+# # reverses sort order of names		
+# for name in sorted(names, reverse=True):
+# 	print(f"hello, {name"})
 		
 
 # use conditionals to find a name in open file using "r"
+
+# storing a name and house using a csv file
+
