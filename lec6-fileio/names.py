@@ -58,4 +58,8 @@ names = []
 # use conditionals to find a name in open file using "r"
 
 # storing a name and house using a csv file
+with open("names.csv") as file:
+	for line in file:
+		row = line.rstrip().split(",")
+		print(f"{row[0]} is in {row[1]}")
 
