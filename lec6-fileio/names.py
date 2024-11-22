@@ -67,7 +67,10 @@ with open("names.csv") as file:
 		students.append(student)
 		# print(f"{row[0]} is in {row[1]}")
 # 		students.append(f"{name} is in {house}")
+
+def get_name(student):
+	return student["name"]
 		
-for student in sorted(students):
+for student in sorted(students, key=get_name):
  	print(f"{student['name']} is in {student['house']}")
 
