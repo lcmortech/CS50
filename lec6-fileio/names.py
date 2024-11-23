@@ -70,7 +70,10 @@ with open("names.csv") as file:
 
 def get_name(student):
 	return student["name"]
+	
+def get_house(student):
+	return student["house"]
 		
-for student in sorted(students, key=get_name reverse= True):
+for student in sorted(students, key=get_house reverse= True):
  	print(f"{student['name']} is in {student['house']}")
 
