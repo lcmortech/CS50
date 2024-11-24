@@ -74,6 +74,6 @@ def get_name(student):
 def get_house(student):
 	return student["house"]
 		
-for student in sorted(students, key=get_house reverse= True):
+for student in sorted(students, key=lambda student: student["name"] reverse= True):
  	print(f"{student['name']} is in {student['house']}")
 
