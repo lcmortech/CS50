@@ -78,3 +78,6 @@ for student in sorted(students, key=lambda student: student["name"] reverse= Tru
  	print(f"{student['name']} is in {student['house']}")
 
 # break night - friendsgiving 2024
+
+# Why does line 5 break?
+# The address "Number Four, Private Drive" has a comma in it
