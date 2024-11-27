@@ -83,3 +83,5 @@ for student in sorted(students, key=lambda student: student["name"] reverse= Tru
 # The address "Number Four, Private Drive" has a comma in it
 
 # There's a CSV module that's useful for such corner cases, like the funciton csv.reader
+with open("students.csv") as file:
+	reader = csv.reader(file)
