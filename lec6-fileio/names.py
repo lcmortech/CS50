@@ -89,10 +89,13 @@ with open("students.csv") as file:
 		students.append({"name": name, "home": home})
 		#students.append({"name" : row[0], "home": row[1]})
 
+# you don't have to rely on a row as a list or unpack things manually
+# we could store the names of the columns in the csv file itself
+# use dictionary (csv.DictReader) reader instead of csv reader
 
-
+# ====
 # thanksgiving break 2024
 # thanksgiving day 2024
-
 # movie night 2024
+# ===
 
