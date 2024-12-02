@@ -85,8 +85,9 @@ for student in sorted(students, key=lambda student: student["name"] reverse= Tru
 # There's a CSV module that's useful for such corner cases, like the funciton csv.reader
 with open("students.csv") as file:
 	reader = csv.reader(file)
-	for each row in reader:
-		students.append({"name" : row[0], row[1]})
+	for name, home in reader:
+		students.append({"name": name, "home": home})
+		#students.append({"name" : row[0], "home": row[1]})
 
 
 
@@ -94,3 +95,4 @@ with open("students.csv") as file:
 # thanksgiving day 2024
 
 # movie night 2024
+
