@@ -94,6 +94,8 @@ with open("students.csv") as file:
 # we could store the names of the columns in the csv file itself
 # use dictionary (csv.DictReader) reader instead of csv reader
 # even if you reverse the column names and data, with DictReader, the data will still display properly
+# infers from the first row and a good way of coding defensively
+# with a dictionary reader, even if you add columns the code wont break
 
 # ====
 # thanksgiving break 2024
