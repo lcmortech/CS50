@@ -12,4 +12,9 @@ with open("students.csv", "a") as file:
     writer = csv.DictWriter(file, fieldnames=["name", "home"])
     writer.writerow({"name": name, "home": home})
 
+<<<<<<< HEAD
+# sometimes its necessary to alternate the variables
+# in order to index into a dictionary you should use double quotes
+
 # PIL - pillow.readthedocs.io - allows you to navigate image files as well and to perform operations on image files, and even animate them
+>>>>>>> a7903603496593538cc618439a6601be0313bc8f
