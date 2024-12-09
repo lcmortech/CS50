@@ -13,4 +13,4 @@ with open("students.csv", "a") as file:
     writer.writerow({"name": name, "home": home})
 
     # sometimes its necessary to alternate the variables
-    # i order to index into a dictionary you should use double quotes
+    # in order to index into a dictionary you should use double quotes
