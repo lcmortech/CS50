@@ -9,6 +9,7 @@ images = []
 # for each argument in sys.argv create a new image variable set it equal to image.open(arg)
 # iterating over each image using the pillow library
 # the first index is the name of the program, not a gif and needs to be excluded via slice
+# if sys.argv is a list, we can use slice to get everything after the first index[1:]
 for arg in sys.argv[1:]:
     image = Image.open(arg)
 
@@ -22,4 +23,3 @@ image[0].save(
 )
 
 # sys.argv also contains costume.py
-# if sys.argv is a list, we can use slice to get everything after the first index[1:]
