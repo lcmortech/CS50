@@ -15,7 +15,9 @@ username, domain = email.split()
 # closer but can still be bypassed easily, ex pass@.edu is valid
 #if username and domain.endswith(".edu"):
 # no better than prev version but still using the re library now
-if re.search("@", email): 
+#if re.search("@", email): 
+# add chars:
+if re.search(".*@.*", email)
 	print("Valid!")
 else:
 	print("Invalid!")
