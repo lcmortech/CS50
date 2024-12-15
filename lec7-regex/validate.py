@@ -28,7 +28,7 @@ else:
 # string - the actual string being searched for
 # flags - we won't use this, we'll just pass through a few arguments instead
 
-# chars introduced: . , * , + , ? , {m} ,  {m,n}
+# regex chars introduced: . , * , + , ? , {m} ,  {m,n}
 	
 
 
