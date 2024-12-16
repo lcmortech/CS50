@@ -29,12 +29,12 @@ else:
 # flags - we won't use this, we'll just pass through a few arguments instead
 
 # regex chars introduced: 
-# . 
-# * 
-# + 
-# ? 
-# {m} 
-# {m,n}
+# . - allows any char except a newline
+# * - 0 or more repetions
+# + - 1 or more repetitions
+# ? - 0 or more repetitions
+# {m} - m (variable) number of repetitions
+# {m,n} - m-n (variable) range or repetitions 
 
 
 	
