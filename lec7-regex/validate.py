@@ -20,6 +20,7 @@ username, domain = email.split()
 # add chars:
 # if re.search(".*@.*", email)
 # changed dot star to dot plus to require repeitions
+# alt "..*@..*"
 if re.search(".+@.+", email): 
 	print("Valid!")
 else:
