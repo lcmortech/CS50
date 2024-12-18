@@ -33,7 +33,7 @@ else:
 # string - the actual string being searched for
 # flags - we won't use this, we'll just pass through a few arguments instead
 
-# regex chars introduced: 
+# regex chars introduced (re.search()): 
 # . - allows any char except a newline
 # * - 0 or more repetions
 # + - 1 or more repetitions
