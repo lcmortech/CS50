@@ -22,7 +22,7 @@ username, domain = email.split()
 # changed dot star to dot plus to require repeitions
 # alt "..*@..*"
 # it uses a finite state machine (a non-deterministic finite automaton) under the hood
-if re.search(".+@.+.edu", email): 
+if re.search(r".+@.+\.edu", email): 
 	print("Valid!")
 else:
 	print("Invalid!")
