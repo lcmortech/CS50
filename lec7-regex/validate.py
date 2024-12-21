@@ -43,5 +43,8 @@ else:
 # {m,n} - m-n (variable) range or repetitions 
 
 # google forms and vs code also contains a regex feature
+
+# ^ - matches the start of the string
+# $ matches the end of the string and just before the newline at the end of the string
 	
 	
