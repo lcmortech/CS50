@@ -23,7 +23,7 @@ username, domain = email.split()
 # alt "..*@..*"
 # it uses a finite state machine (a non-deterministic finite automaton) under the hood
 # Valid, but not as precise
-if re.search(r"^.+@.+\.edu$", email): # ^ start, $ end
+if re.search(r"^.+@.+\.edu$", email): # ^ start, added / (escape char)for period, $ end
 	print("Valid!")
 else:
 	print("Invalid!")
