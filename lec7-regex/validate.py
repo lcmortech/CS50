@@ -46,5 +46,8 @@ else:
 
 # ^ - matches the start of the string
 # $ matches the end of the string and just before the newline at the end of the string
+
+# [] set of characters
+# [^] complementing the set
 	
 	
