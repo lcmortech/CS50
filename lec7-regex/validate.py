@@ -24,6 +24,8 @@ username, domain = email.split()
 # it uses a finite state machine (a non-deterministic finite automaton) under the hood
 # Valid, but not as precise
 # if re.search(r"^.+@.+\.edu$", email): # ^ start, added / (escape char)for period, $ end
+# this is still the easiest method:
+# if re.search(r".@+@.+", email)
 if re.search(r"^[^@]+@[^@]+\.edu$", email):
 	print("Valid!")
 else:
