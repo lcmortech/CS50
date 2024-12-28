@@ -40,18 +40,18 @@ else:
 # regex chars introduced (re.search()): 
 # . - allows any char except a newline
 # * - 0 or more repetions
-# + - 1 or more repetitions
+# + - 1 or more repetitions of the thing to the left
 # ? - 0 or more repetitions
 # {m} - m (variable) number of repetitions
 # {m,n} - m-n (variable) range or repetitions 
 
 # google forms and vs code also contains a regex feature
 
-# ^ - matches the start of the string
+# ^ - match from the start of the string
 # $ matches the end of the string and just before the newline at the end of the string
 
 # [] set of characters
-# [^] complementing the set
+# [^] complementing the set. must be INSIDE the brackets and precede the set of characters to work this way
 # (review) a set of curly braces can be used to specify a number of characters
 # [a - z] means a through z (range), or [a-zA-Z0-9_] for all characters
 
