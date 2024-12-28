@@ -42,7 +42,7 @@ else:
 # * - 0 or more repetions
 # + - 1 or more repetitions of the thing to the left
 # ? - 0 or more repetitions
-# {m} - m (variable) number of repetitions
+# {m} - m (variable) specific number of repetitions
 # {m,n} - m-n (variable) range or repetitions 
 
 # google forms and vs code also contains a regex feature
