@@ -26,7 +26,7 @@ username, domain = email.split()
 # if re.search(r"^.+@.+\.edu$", email): # ^ start, added / (escape char)for period, $ end
 # this is still the easiest method:
 # if re.search(r".@+@.+", email)
-if re.search(r"^[^@]+@[^@]+\.edu$", email):
+if re.search(r"^[^a-z]+@[^@]+\.edu$", email):
 	print("Valid!")
 else:
 	print("Invalid!")
