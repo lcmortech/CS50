@@ -59,3 +59,10 @@ else:
 # ====christmas eve====
 # ====christmas========
 	
+# SHORTCUT CHARS
+# \d decimal digit
+# \D NOT a decimal digit
+# \s whitespace characters
+# \S NOT a whitespace character
+# \w word character...as well as numbers and the underscore
+# \W NOT a word character
