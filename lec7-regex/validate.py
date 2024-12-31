@@ -67,3 +67,8 @@ else:
 # \S NOT a whitespace character
 # \w word character...as well as numbers and the underscore
 # \W NOT a word character
+
+# re.search built in variables/constants
+# re.IGNORECASE
+# re.MULTILINE
+# re.DOTALL
