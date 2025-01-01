@@ -29,6 +29,7 @@ username, domain = email.split()
 # if re.search(r"^[a-zA-Z0-9_]+@[^@]+\.edu$", email):
 # you can also write email.lower()
 # if re.search(r"^\w+@\w+\.edu$", email):
+# ignore the case of the input wo changing its value
 if re.search(r"^\w+\w+\.edu$", email, re.IGNORECASE):
 	print("Valid!")
 else:
