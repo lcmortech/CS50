@@ -71,6 +71,6 @@ else:
 # \W NOT a word character
 
 # re.search built in variables/constants
-# re.IGNORECASE
+# re.IGNORECASE - ignores the case of the input without changing its value
 # re.MULTILINE
 # re.DOTALL
