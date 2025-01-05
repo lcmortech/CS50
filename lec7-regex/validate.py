@@ -33,6 +33,7 @@ username, domain = email.split()
 # if re.search(r"^\w+\w+\.edu$", email, re.IGNORECASE):
 # allow for sub-domains                  
 # if re.search(r"^[a-zA-Z0-9_.]\w+@(\w+\.)?\w+\.edu$",email,re.IGNORECASE):
+# alt code to prev (neither way is better, depends on design)
 if re.search(r"^[a-zA-Z0-0-9_\.])?\w+\.edu$",email,re.IGNORECASE):
 	print("Valid!")
 else:
