@@ -83,3 +83,6 @@ else:
 
 # break
 # break 2
+
+re.match(pattern, string, flags = 0)
+re.fullmatch(pattern, string, flags = 0)
