@@ -88,4 +88,5 @@ re.match(pattern, string, flags = 0)
 re.fullmatch(pattern, string, flags = 0) # replaces carrot or dollar sign
 
 name = input("What's your name? ").strip()
-print(f"hello, (name)")
+print(f"hello, {name}")
+
