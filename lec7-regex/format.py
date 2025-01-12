@@ -12,6 +12,9 @@ import re
 name = input("What's your name? ").strip()
 re.search(r"^(.+), (.+)$", name)
 if matches:
-    last, first = matches.groups()
+    last = matches.groups(1)
+    first = matches.groups(2)
     name = f"{first}{last}"
 print(f"hello, {name}")
+
+# re.search
