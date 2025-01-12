@@ -15,6 +15,7 @@ if matches:
     last = matches.groups(1)
     first = matches.groups(2)
     name = f"{first}{last}"
+# alt: name = matches.group(2) + " " + matches.group(1)
 print(f"hello, {name}")
 
 # re.search
