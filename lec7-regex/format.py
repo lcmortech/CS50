@@ -19,3 +19,4 @@ if matches:
 print(f"hello, {name}")
 
 # re.search
+# looking for a name with no space will still break it (can be solved by adding an asterisk)
