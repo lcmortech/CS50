@@ -10,7 +10,7 @@ print(f"hello, {name}")
 import re
 
 name = input("What's your name? ").strip()
-re.search(r"^(.+), (.+)$", name)
+re.search(r"^(.+), *(.+)$", name)
 if matches:
     last = matches.groups(1)
     first = matches.groups(2)
