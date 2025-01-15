@@ -6,3 +6,5 @@ url = input("URL: ").strip()
 # removes only the part of the string needed
 username = url.removeprefix("https://twitter.com")
 print(f"Username: {username}")
+
+# re.sub(pattern, replaced string, newer string, count=0, flags=0)
