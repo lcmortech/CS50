@@ -14,5 +14,6 @@ import re
 
 url = input("URL: ").strip()
 
-username = re.sub(r"https://twitter.com", "", url)
+#username = re.sub(r"https://twitter.com", "", url)
+username = url.removeprefix("https://twitter.com/")
 print(f"Username: {username}")
