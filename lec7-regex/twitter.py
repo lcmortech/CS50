@@ -17,7 +17,8 @@ url = input("URL: ").strip()
 # username = re.sub(r"^https?://(www\.)?twitter\.com/", "", url)
 # username = url.removeprefix("https://twitter.com/")
 # make the whole https part optional
-username = re.sub(r"^(https?:)?://)?(www\.)?twitter\.com/","", url)
-
+# username = re.sub(r"^(https?:)?://)?(www\.)?twitter\.com/","", url)
 # alt (looks a little less obvious): username = re.sub(r"^(https?:)?://)?(www\.|)twitter\.com/","", url)
+re.search(r"^https?://(www\.)?twitter\.com/(.+)$", urll, re.IGNORECASE)
+if matches:
 print(f"Username: {username}")
