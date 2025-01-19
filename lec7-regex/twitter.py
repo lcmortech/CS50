@@ -21,4 +21,4 @@ url = input("URL: ").strip()
 # alt (looks a little less obvious): username = re.sub(r"^(https?:)?://)?(www\.|)twitter\.com/","", url)
 re.search(r"^https?://(www\.)?twitter\.com/(.+)$", urll, re.IGNORECASE)
 if matches:
-print(f"Username: {username}")
+print(f"Username:", matches.group(1))
