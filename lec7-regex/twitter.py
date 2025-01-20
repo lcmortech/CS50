@@ -21,4 +21,5 @@ url = input("URL: ").strip()
 # alt (looks a little less obvious): username = re.sub(r"^(https?:)?://)?(www\.|)twitter\.com/","", url)
 re.search(r"^https?://(www\.)?twitter\.com/(.+)$", urll, re.IGNORECASE)
 if matches:
+# the subdomain is optional and to make it optional there needs to be parenthesis. now that theres a second set of parenthesis group 1 must be changed to group 2
 print(f"Username:", matches.group(1))
