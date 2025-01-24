@@ -20,3 +20,4 @@ if__name__ == "__main__":
     main()
 
 	# - tuple - immutable list. good for defense coding, better than lists
+	# - both tuples and lists use square brackets to access items
