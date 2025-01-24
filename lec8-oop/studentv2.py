@@ -1,6 +1,8 @@
 
 def main():
 	student = get_student()
+	if student[0] == "Padma":
+		student[1] == "Ravenclaw" # tuples can't be changed
     # name, house = get_name() # abstraction
     house = get_house()
     print(f"{name [0]} from {house [1]}") # gets first and second item in tuple
