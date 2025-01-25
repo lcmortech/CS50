@@ -11,6 +11,11 @@ def get_student():
 	student["house"] = input("House: ")
 	return student
 	
+	# shortcut
+	name = input("Name: ")
+	house = input("House: ")
+	return("name": name, "house": house)
+	
 	
 if __name__ == "__main__":
 	main()
