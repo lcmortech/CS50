@@ -1,10 +1,13 @@
 def main():
 	student = get_student()
-	if student[0] == "Padma":
-		student[1] = "Ravenclaw"
-	print(f"{student[0]} from {student[1]}")
+	if student["name"] == "Padma":
+		student["house"] == "Ravenclaw"
+	#if student[0] == "Padma":
+		#student[1] = "Ravenclaw"
+	print(f"{student["name"]} from {student["house"]}")
+	#print(f"{student[0]} from {student[1]}")
 	
-	
+# use dictionaries instead	
 def get_student():
 	student = {}
 	student["name"] = input("Name: ")
@@ -19,3 +22,5 @@ def get_student():
 	
 if __name__ == "__main__":
 	main()
+	
+# dictionaries like lists ARE mutable. You index into it through keys instead of numbers/indices
