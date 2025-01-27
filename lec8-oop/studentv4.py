@@ -2,7 +2,9 @@
 
 # 1 - You can define your own class (datatype)
 class Student:
-	def __init__(self): # dunder/instance method
+	def __init__(self, name, house): # dunder/instance method
+		self.name = name
+		self.house = house
 
 # 3 - You can access those same sttributes using code like this
 def main():
