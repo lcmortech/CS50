@@ -2,7 +2,7 @@
 
 # 1 - You can define your own class (datatype)
 class Student:
-	pass
+	def __init__(self): # dunder/instance method
 
 # 3 - You can access those same sttributes using code like this
 def main():
