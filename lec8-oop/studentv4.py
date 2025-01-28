@@ -1,8 +1,8 @@
 # CLASSES - classes allow you to invent your own datatype (or object - OOP) and give them a name
 
 # 1 - You can define your own class (datatype)
-class Student:
-	def __init__(self, name, house): # dunder/instance method
+class Student: # constructor - acts as a bllueprint
+	def __init__(self, name, house): # dunder/instance method. implements the initialization of an object in python
 		self.name = name
 		self.house = house
 
@@ -16,9 +16,12 @@ def main():
 # 2 - You can store "attributes" inside of it using dot notation
 # These attributes are really called properties/instance variables
 def get_student():
-	student == Student() # creating an object of class Student
-	student.name = input("Name: ")
-	student.house = input("House: ")
+	name = input("Name: ")
+	house = input("House: ")
+	student = Student(name, house)
+	#student == Student() # creating an object of class Student
+	#student.name = input("Name: ")
+	#student.house = input("House: ")
 	return student
 	
 if __name__ == "__main__":
