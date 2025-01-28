@@ -1,8 +1,11 @@
 # CLASSES - classes allow you to invent your own datatype (or object - OOP) and give them a name
-
+# import sys (not recommended)
 # 1 - You can define your own class (datatype)
 class Student: # constructor - acts as a bllueprint
 	def __init__(self, name, house): # dunder/instance method. implements the initialization of an object in python
+		if not name:
+			#sys.exit("Missing name")- not rec
+			# it is better to raise your own exceptions instead
 		self.name = name
 		self.house = house
 
