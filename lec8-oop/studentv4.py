@@ -4,6 +4,7 @@
 class Student: # constructor - acts as a bllueprint
 	def __init__(self, name, house): # dunder/instance method. implements the initialization of an object in python
 		if not name:
+			raise ValueError("Missing name")
 			#sys.exit("Missing name")- not rec
 			# it is better to raise your own exceptions instead
 		self.name = name
