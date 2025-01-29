@@ -26,6 +26,10 @@ def get_student():
 	#student == Student() # creating an object of class Student
 	#student.name = input("Name: ")
 	#student.house = input("House: ")
+	#try:
+		return Student(name, house)
+	#except Value:
+		
 	return student
 	
 if __name__ == "__main__":
