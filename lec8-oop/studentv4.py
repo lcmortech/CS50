@@ -34,3 +34,5 @@ def get_student():
 	
 if __name__ == "__main__":
 	main()
+
+# raise can be done with classes but not dictionaries
