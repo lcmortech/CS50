@@ -27,7 +27,7 @@ def get_student():
 	#student.name = input("Name: ")
 	#student.house = input("House: ")
 	#try:
-		return Student(name, house)
+		# return Student(name, house)
 	#except Value:
 		
 	return student
