@@ -8,4 +8,4 @@ class Student:
 		self.house = house
 		
 
-# __str__ can be used to print out the description of an object instead of its default location
+# def __str__(self) can be used to print out the description of an object instead of its default location
