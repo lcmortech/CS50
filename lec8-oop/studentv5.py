@@ -6,3 +6,6 @@ class Student:
 			raise MyCustomError("Invalid house")
 		self.name = name
 		self.house = house
+		
+
+# __str__ can be used to print out the description of an object instead of its default location
