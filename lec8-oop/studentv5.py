@@ -14,16 +14,29 @@ class Student:
 	def __str__(self):
 		print(f"{self.name} from {self.house}")
 		
-	def main():
-		 student = get_student()
-		 print(student)
-		 
+	def charm(self):
+		match self.patronus:
+			case "Stag":
+				return "🦌"
+			case "Jack Russell Terrier":
+				return "🐶"
+			case _:
+				return "🪄"
+		
+	
 	def get_student():
 		name = input("Name": )
 		house = input("House": )
 		patronus = input("Patronus": )
 		
 		return Sudent(name, house, patronus)
+		
+	def main():
+		 student = get_student()
+		 print("Expecto Patronum")
+		 print(student.charm())
+		 
+		 
 
 if __name__ == "__main__":
 	main()
