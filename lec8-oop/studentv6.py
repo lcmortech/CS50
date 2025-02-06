@@ -5,6 +5,14 @@ class Student:
 		
 	def __str__(self):
 		return f"{self.name} from {self.house}
+	
+	# Getter - a function for a class that gets some attribute	
+	def house(self):
+		return self.house
+	
+	# Setter - a function in some class that sets some value	
+	def house(self, house):
+		self.house = house
 		
 	def main():
 		student = get_student()
@@ -19,3 +27,5 @@ if __name__ = "__main__":
 	main()
 
 # introducing the @property and decorators
+# properties - @property - an attribute that has even more defense mcenishma put into place and that you have more control over
+# decorators functions that modify the behavior of other functions
