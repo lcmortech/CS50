@@ -7,12 +7,14 @@ class Student:
 		return f"{self.name} from {self.house}
 	
 	# Getter - a function for a class that gets some attribute	
-	def house(self):
+	#def house(self):
+	@property #no colon needed!
 		return self.house
 	
 	# Setter - a function in some class that sets some value	
-	def house(self, house):
-		if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
+	#def house(self, house):
+	@house.setter #no colon needed!
+	if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
 			raise ValueError("Invalid Error - House not valid")
 		self.house = house
 		
