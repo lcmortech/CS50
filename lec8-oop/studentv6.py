@@ -16,7 +16,7 @@ class Student:
 	@house.setter #no colon needed!
 	if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
 			raise ValueError("Invalid Error - House not valid")
-		self._house = house
+		self._house = house # the underscore is also what makes dictionaries so powerful
 	# all of the error checking can be kept in the setter now, and will be called either when the object is created for the first time bc of init or if a programmer tries to circumvent that method
 		
 	def main():
