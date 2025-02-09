@@ -4,7 +4,7 @@ class Student:
 		self.house = house
 		
 	def __str__(self):
-		return f"{self.name} from {self.house}
+		return f"{self.name} from {self.house}"
 	
 	# Getter - a function for a class that gets some attribute	
 	#def house(self):
