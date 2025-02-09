@@ -21,7 +21,7 @@ class Student:
 		
 	def main():
 		student = get_student()
-		student.house = "Privet Drive" # can be used to circumvent/override conditional in class constructor
+		#student.house = "Number Four, Privet Drive" # can be used to circumvent/override conditional in class constructor
 		print(student)
 		
 	def get_student():
