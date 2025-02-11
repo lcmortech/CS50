@@ -27,10 +27,3 @@ class Student:
 		
 if __name__ = "__main__":
 	main()
-
-# introducing the @property and decorators
-# properties - @property - an attribute that has even more defense mechanisms put into place and that you have more control over
-# decorators functions that modify the behavior of other functions
-
-# it will always be 1 argument for the getter (self), and 2 arguments for the setter
-# not using the underscore in init ensures python recognizes the pattern and that error checking takes place
