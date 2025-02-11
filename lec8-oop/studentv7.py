@@ -1,5 +1,5 @@
 # important: python focuses on conventions, not hard constraints
-
+# if an instance variable starts with an underscore or even a double underscore (private), please don't touch it
 class Student:
 	def __init__(self, name, house):
 		self.name = name
