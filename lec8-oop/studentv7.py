@@ -29,3 +29,6 @@ if __name__ = "__main__":
 	main()
 	
 # class int(x, base=10), str(object='') has always been classes
+# str.lower(), str.strip() are methods of the class str
+# list is a class class list([iterable]), list.append()
+# dict is a class too
