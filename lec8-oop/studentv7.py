@@ -27,3 +27,5 @@ class Student:
 		
 if __name__ = "__main__":
 	main()
+	
+# class int(x, base=10), str(object='') has always been classes
