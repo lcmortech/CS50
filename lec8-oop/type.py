@@ -18,3 +18,4 @@ print(type(dict()))
 # <class 'dict'>
 
 # class methods - functionality thats the same for every object in that class
+# @classmethod - a decorator used to specify that this method is not by default an instance method that has access to self
