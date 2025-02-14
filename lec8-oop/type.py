@@ -16,3 +16,5 @@ print(type(list()))
 print(type({}))
 print(type(dict()))
 # <class 'dict'>
+
+# class methods - functionality thats the same for every object in that class
