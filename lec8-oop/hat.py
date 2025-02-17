@@ -11,3 +11,5 @@ class Hat:
 # common syntax for instantiating an instance of a certain class
 hat = Hat()
 hat.sort("Harry")
+
+# we uses classes to represent some real world or fictional entity in code
