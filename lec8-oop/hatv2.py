@@ -17,4 +17,4 @@ class Hat:
 hat = Hat()
 hat.sort("Harry")
 
-# we uses classes to represent some real world or fictional entity in code
+# we uses classes to represent some real world or fictional entity in code.
