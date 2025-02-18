@@ -5,7 +5,11 @@ class Hat:
 	#class variables exist within the class itself and theres just 1 copy of that variable for all of the objects. they all share the same variable
 		houses = ["Gryffiindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
 		
-    def sort(self, name):
+		@classmethod
+		
+		
+		
+    def sort(cls, name): #cls becomes class by convention
 		print(name, "is in", random.choice(self.houses))
         #print(name, "is in", "some house")
 
