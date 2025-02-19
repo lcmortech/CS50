@@ -17,13 +17,15 @@ class Student:
 			raise ValueError("Invalid Error - House not valid")
 			self._house = house # the underscore is also what makes 
 		
-	def main():
-		student = get_student()
-		print(student)
-		
-	def get_student():
-		name = input("Name: ")
-		house = input("House: ")
+def main():
+	student = get_student()
+	print(student)
+
+# why isnt this function in the class if its related?	
+def get_student():
+	name = input("Name: ")
+	house = input("House: ")
+	return Student(name, house)
 		
 if __name__ = "__main__":
 	main()
