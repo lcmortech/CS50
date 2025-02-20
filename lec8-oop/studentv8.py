@@ -27,3 +27,6 @@ if __name__ = "__main__":
 	main()
 	
 	
+# staticmethods - only introduced here
+# inheritance
+	
