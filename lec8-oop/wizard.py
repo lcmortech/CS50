@@ -6,16 +6,19 @@ class Wizard: # the superclass
 		
 
 class Student(Wizard): # subclass of wizard
-	def __init__(self, name, house):
+	def __init__(self, name, house): # acts like a constructor
 		super().__init__(name) # accesses the superclass
 		#self.name = name - is already in Wizard class
 		self.house = house
 		
 		
 class Professor(Wizard): # subclass of wizard
-	def __init__(self, name, subject):
+	def __init__(self, name, subject): # acts like a constructor
 		super().__init__(name) # access the superclass		
 		self.subject = subject
 		#self.name = name - is already in Wizard class
 		
+		
+# docs.python.org3/library/exceptions.html
+# operator overloading
 		
