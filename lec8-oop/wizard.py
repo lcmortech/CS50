@@ -20,5 +20,5 @@ class Professor(Wizard): # subclass of wizard
 		
 		
 # docs.python.org3/library/exceptions.html
-# operator overloading
+# operator overloading - plus does not have to equal addition, and minus does not have to mean subtraction
 		
