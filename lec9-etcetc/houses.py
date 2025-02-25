@@ -15,3 +15,5 @@ for student in students:
 		
 for house in sorted(houses):
 	print(house)
+	
+# you can use in/not in with sets too
