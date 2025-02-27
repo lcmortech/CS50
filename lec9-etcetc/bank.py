@@ -1,6 +1,7 @@
 # global - makes a local variable global in scope
+# local - exists within the context of a function
 
-balance = 0
+balance = 0 # variable is out of scope for defs
 
 def main():
 	print("Balance:", balance)
@@ -10,10 +11,12 @@ def main():
 	
 	
 def deposit(n):
-	balance += n
+	 global balance
+	 balance += n
 	
 	
 def withdraw(n):
+	global balance
 	balance -= n
 	
 if __name__ == "__main__": #calls main function if file name is "main"
