@@ -26,3 +26,5 @@ if __name__ == "__main__":
 	main()
 	
 # globals are meant to be used sparingly bc things can get messy quickly
+
+# constants - variables that are immutable and cannot be changed. good for defensive programming, but is only a convention in python
