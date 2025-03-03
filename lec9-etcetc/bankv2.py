@@ -24,4 +24,5 @@ class Account:
 		
 if __name__ == "__main__":
 	main()
-		
+	
+# globals are meant to be used sparingly bc things can get messy quickly
