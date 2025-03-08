@@ -3,3 +3,6 @@
 def meow(num):
 	for _ in range(num):
 		print("meow")
+
+number = input("Number: ")
+meow(num)
