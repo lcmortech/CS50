@@ -4,5 +4,6 @@ def meow(num):
 	for _ in range(num):
 		print("meow")
 
-number: int = input("Number: ")
+#number: int = input("Number: ") must change type
+number: int = int(input("Number: "))
 meow(num)
