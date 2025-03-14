@@ -1,5 +1,12 @@
 def meow(n: int) -> str:
-	"""Meow n times. (doctstring format)"""
+	"""
+	Meow n times. (doctstring format)
+	:param n: Number of times to meow
+	:type n: int
+	:raise TypeErrorr: If n is not an int
+	:return: A string of n meows, one per line
+	:rtype: str (restructured text, markdown type language)
+	"""
 	return "meow\n" * n
 	
 	
