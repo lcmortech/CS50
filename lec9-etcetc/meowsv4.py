@@ -5,7 +5,7 @@ def meow(n: int) -> str:
 	:type n: int
 	:raise TypeErrorr: If n is not an int
 	:return: A string of n meows, one per line
-	:rtype: str (restructured text, markdown type language) - not specific to python
+	:rtype: str (restructured text, markdown type language) - not specific to python, helps w printing and other tasks
 	"""
 	return "meow\n" * n
 	
