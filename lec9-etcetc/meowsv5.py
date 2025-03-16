@@ -5,3 +5,5 @@ if len(sys.argv) == 1:
 elif len(sys.argv) == 3:
 else:
 	print("usage: meows.py ")
+
+# using sys args for meows
