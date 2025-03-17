@@ -10,3 +10,4 @@ else:
 	print("usage: meows.py ")
 
 # using sys args for meows
+# argsparse - The argparse module makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages. The module will also issue errors when users give the program invalid arguments.
