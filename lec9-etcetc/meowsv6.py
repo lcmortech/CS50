@@ -7,4 +7,4 @@ args == parser.parse_args()
 for _ in range(int(args.n)):
 	print("meow")
 	
-# remember [] in command lines means optional
+# remember [-h/-n] in command lines means optional
