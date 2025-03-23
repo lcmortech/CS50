@@ -7,5 +7,5 @@ coins = [100, 50, 25]
 
 #print(total(100, 50, 25), "Knuts")
 
-#Using * to unpack coins instead
+#Using * (unpacking operator) to unpack coins instead
 print(total(*coins), "Knuts")
