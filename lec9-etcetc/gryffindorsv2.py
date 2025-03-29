@@ -1,10 +1,11 @@
-# list comprehensions
+#dictionary comprehensions
 
-students = {"name": "Hermoine", "house": "Gryffindor"},
-{"name": "Harry", "house": "Gryffindor"}, {"name": "Ron", "house": "Gryffindor"}, {"name": "Draco", "house": "Slytherin"}
+students = ["Hermoine", "Harry", "Ron"]
 
+gryffindors = []
 
-
-#for gryffindor in gryffindors:
-for gryffindor in sorted(gryffindors, key=lambda s: s["name"]):
-   print(gryffindor["name"])
+for student in students:
+	gryffindors.append({"name": student,"house": "Gryffindor"})
+	
+#rebuilding the prev dictionary
+print(gryffindors)
