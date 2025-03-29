@@ -8,14 +8,14 @@ students = {"name": "Hermoine", "house": "Gryffindor"},
 # for gryffindor in sorted(gryffindors):
 #   print(gryffindor)
 
-def is_gryffindor(s):
+#def is_gryffindor(s):
 #   return s["house"] == "Gryffindor"
    # return True - not necessary
    #else: - no need to
    #   return False - explicitly return boolean
 
 # or conditional inclusion/exclusion - use filter for bool
-gryffindors = filter(is_gryffindor, students) # you want filter to call the function for you
+gryffindors = filter(lambda s: s["house"] == "Gryffindor", students) # you want filter to call the function for you
 
 #for gryffindor in gryffindors:
 for gryffindor in sorted(gryffindors, key=lambda s: s["name"]):
