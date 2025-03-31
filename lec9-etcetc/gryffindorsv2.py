@@ -17,9 +17,10 @@ ranks = [1,2,3]
 
 ranked_students = {rank: student for rank, student in zip(ranks, students)} # holy smokes I did it with zip! (I'm sure he meant enumerate tho)
 
-# Malan ex
+# Malan ex - gryffindorsv3.py
 
 	
 #rebuilding the prev dictionary
 print(gryffindors)
 print(ranked_students)
+
